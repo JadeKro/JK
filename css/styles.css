@@ -10,6 +10,9 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+header {
+  --bs-dark-background: linear-gradient(rgb(0, 0, 128) rgb(81, 0, 119)) ;
+}
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
