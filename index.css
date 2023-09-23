@@ -1,12 +1,14 @@
 * {
   box-sizing: border-box;
 }
+
 h1 {
-font-family: 'Papyrus';
-text-decoration-line: overline;
-text-decoration-color:rgb(255, 255, 255);
-text-decoration-style: wavy;
+  font-family: 'Papyrus';
+  text-decoration-line: overline;
+  text-decoration-color: rgb(255, 255, 255);
+  text-decoration-style: wavy;
 }
+
 body {
   margin: 0;
   background-color: rgb(100, 0, 100, .3);
@@ -64,28 +66,33 @@ body {
     width: 100%;
   }
 }
-    .column {
-      background-color: rgb(100, 0, 100, .8);
-      color:rgb(0, 0, 0);
-      width: 100%;
-      max-width: 400px;
-      height: auto;
-      margin: 10px 25px 10px;
-      display: flex;
-      border-radius: 10px;
-      }
-      .img_col1 {
-        width: 20%;
-        height: 20%;
-      }
-      .img_col2 {
-        width: 20%;
-        height: 20%;
-      }
-      .img_col3 {
-        width: 20%;
-        height: 20%;
-      }
-  h2{
-    font-family: 'Papyrus';
-  }
+
+.column {
+  background-color: rgb(100, 0, 100, .8);
+  color: rgb(0, 0, 0);
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin: 10px 25px 10px;
+  display: flex;
+  border-radius: 10px;
+}
+
+.img_col1 {
+  width: 20%;
+  height: 20%;
+}
+
+.img_col2 {
+  width: 20%;
+  height: 20%;
+}
+
+.img_col3 {
+  width: 20%;
+  height: 20%;
+}
+
+h2 {
+  font-family: 'Papyrus';
+}
