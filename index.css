@@ -16,7 +16,7 @@ body {
 
 /* Style the header */
 .header {
-  background: radial-gradient(rgb(100, 0, 100), rgb(0, 0, 128));
+  background: radial-gradient(rgb(131, 0, 131), rgb(0, 0, 128));
   padding: 20px;
   text-align: center;
 }
