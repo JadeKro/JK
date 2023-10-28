@@ -17,7 +17,7 @@ body {
   background: rgb(131, 0, 131);
 }
 
-.input:hover{
+.input{
     border-color: rgb(0, 0, 128);
     border-radius: 5px;
     box-shadow: 0 0 10px rgb(0, 0, 128);
