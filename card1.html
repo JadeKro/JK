@@ -31,67 +31,71 @@
 
         </div>
 
-    <h1>Portátiles</h1>
+        <h1>Portátiles</h1>
 
-    <p class="page-description text-center">¡Elige el que mejor se acomode a tus necesidades y gustos!</p>
+        <p class="page-description text-center">¡Elige el que mejor se acomode a tus necesidades y gustos!</p>
 
-    <div class="tz-gallery">
+        <div class="tz-gallery">
 
-        <div class="row">
-            <div class="col-sm-6 col-md-4">
-                <a class="lightbox" href="img/portatil.jpg">
-                    <img src="img/portatil.jpg" alt="Park">
-                </a>
+            <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="img/portatil.jpg">
+                        <img class="" src="img/portatil.jpg" alt="Acer Ryzen 5">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="img/portatil.jpg">
+                        <img src="img/portatil.jpg" alt="Bridge">
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <a class="lightbox" href="img/portatil.jpg">
+                        <img src="img/portatil.jpg" alt="Tunnel">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="img/portatil.jpg">
+                        <img src="img/portatil.jpg" alt="Coast">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="img/portatil.jpg">
+                        <img src="img/portatil.jpg" alt="Rails">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="img/portatil.jpg">
+                        <img src="img/portatil.jpg" alt="Traffic">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="img/portatil.jpg">
+                        <img src="img/portatil.jpg" alt="Rocks">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="img/portatil.jpg">
+                        <img src="img/portatil.jpg" alt="Benches">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="img/portatil.jpg">
+                        <img src="img/portatil.jpg" alt="Sky">
+                    </a>
+                </div>
             </div>
-            <div class="col-sm-6 col-md-4">
-                <a class="lightbox" href="img/portatil.jpg">
-                    <img src="img/portatil.jpg" alt="Bridge">
-                </a>
-            </div>
-            <div class="col-sm-12 col-md-4">
-                <a class="lightbox" href="img/portatil.jpg">
-                    <img src="img/portatil.jpg" alt="Tunnel">
-                </a>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <a class="lightbox" href="img/portatil.jpg">
-                    <img src="img/portatil.jpg" alt="Coast">
-                </a>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <a class="lightbox" href="img/portatil.jpg">
-                    <img src="img/portatil.jpg" alt="Rails">
-                </a>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <a class="lightbox" href="img/portatil.jpg">
-                    <img src="img/portatil.jpg" alt="Traffic">
-                </a>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <a class="lightbox" href="img/portatil.jpg">
-                    <img src="img/portatil.jpg" alt="Rocks">
-                </a>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <a class="lightbox" href="img/portatil.jpg">
-                    <img src="img/portatil.jpg" alt="Benches">
-                </a>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <a class="lightbox" href="img/portatil.jpg">
-                    <img src="img/portatil.jpg" alt="Sky">
-                </a>
-            </div>
+
         </div>
-
-    </div>
 
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
     <script>
-        baguetteBox.run('.tz-gallery');
+        baguetteBox.run('.tz-gallery', {
+            captions: function (element) {
+                return element.getElementsByTagName('img')[0].alt;
+            }
+        });
     </script>
 </body>
 
