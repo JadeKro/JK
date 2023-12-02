@@ -1,0 +1,78 @@
+body {
+  background-image: linear-gradient(rgb(0, 0, 128) 0%, rgb(176, 204, 255) 75%, rgb(0, 0, 128) 100%);
+  min-height: 100vh;
+  font: normal 16px 'hervetical';
+  padding: 60px 0;
+}
+.container.gallery-container {
+  background-color:rgb(169, 182, 241);
+  color: #35373a;
+  min-height: 100vh;
+  border-radius: 20px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+
+.gallery-container h1 {
+  text-align: center;
+  margin-top: 70px;
+  font-family: 'Papyrus';
+  font-weight: bold;
+}
+
+.gallery-container p.page-description {
+  text-align: center;
+  max-width: 800px;
+  margin: 25px auto;
+  color: rgb(26, 25, 100);
+  font-size: 18px;
+}
+
+.tz-gallery {
+  padding: 40px;
+}
+
+.tz-gallery .lightbox img {
+  width: 95%;
+  margin-bottom: 20px;
+  transition: 0.2s ease-in-out;
+  box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+
+.tz-gallery .lightbox img:hover {
+  transform: scale(1.08);
+  box-shadow: 0 8px 15px rgb(0, 0, 128);
+}
+
+.tz-gallery img {
+  border-radius: 4px;
+}
+
+.baguetteBox-button {
+  background-color: transparent !important;
+}
+
+
+@media(max-width: 768px) {
+  body {
+      padding: 0;
+  }
+
+  .container.gallery-container {
+      border-radius: 0;
+  }
+}
+.favicon_regresar:hover { 
+  transform: scale(1.1);
+}
+.favicon_regresar {
+  width: 30px;
+  height:30px;
+}
+.favicon_regresar a { 
+  color: #35373a;
+}
+h1 {
+  color: rgb(28, 29, 53);
+  text-decoration: overline;
+}
